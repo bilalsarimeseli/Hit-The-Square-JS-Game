@@ -1,11 +1,14 @@
+body {
+  background-color: rgb(255, 240, 238);
+}
 #scoreBoard {
   font-family: Arial Arial, Helvetica, sans-serif;
-  font-size: 24pt;
-  color: aquamarine;
+  font-size: 15pt;
+  color: rgb(4, 218, 146);
   font-weight: bold;
   position: absolute;
   top: 10px;
-  left: 40%;
+  
   height: 25px;
   margin-top: 2px;
   
@@ -14,7 +17,7 @@
 #pageTitle {
   margin-top: 12px;
   font-family: Arial Arial, Helvetica, sans-serif;
-  font-size: 20pt;
+  font-size: 17pt;
   font-weight: bold;
   color: navy;
   position: absolute;
@@ -28,13 +31,15 @@
   top: 75px;
   left: 10px;
   border: 2px navy solid;
+  background-image: url("black-orchid.png")
 }
 
 #point {
   position: absolute;
   top: 25px;
   left: 25px;
-  background-color: olive;
+  background-color: rgb(246, 246, 7);
   width: 64px;
   height: 64px;
+  border: 3px solid rgb(255, 83, 83);
 }
